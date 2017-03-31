@@ -1,0 +1,20 @@
+MagicSetonas
+===========
+
+Thank you for installing MagicSetonas -- a syntax highlighter for
+cutting edge Setonas.
+
+You're almost there, please do the following steps to finish
+the installation:
+
+* Close all open Setonas files;
+
+* Disable the "Python" package:
+
+  - via Package Control by executing "Package Control: Disable Package";
+
+  - or manually, by adding "Python" to "ignored_packages", in your
+    `Preferences.sublime-settings` file.
+
+If you find any oddities in how your Python code is highlighted, please
+file a bug at https://github.com/MagicStack/MagicPython/issues.

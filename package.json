@@ -1,0 +1,57 @@
+{
+  "name": "MagicSetonas",
+  "version": "1.0.0",
+  "engines": {
+    "atom": "*",
+    "node": "*",
+    "vscode": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Setonas/MagicSetonas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Setonas/MagicSetonas/issues"
+  },
+  "description": "Syntax highlighter for cutting edge Setonas.",
+  "license": "MIT",
+  "publisher": "setonas",
+  "categories": [
+    "Languages"
+  ],
+  "keywords": [
+    "python",
+    "highlighter",
+    "syntax",
+    "setonas"
+  ],
+  "icon": "icon.svg",
+  "galleryBanner": {
+    "color": "#2c2c2c",
+    "theme": "dark"
+  },
+  "contributes": {
+    "//": [
+      "This section is for VSCode.",
+      "NOTE: remember to update grammar/src/MagicSetonas.syntax.yaml, too."
+    ],
+    "languages": [
+      {
+        "id": "python",
+        "aliases": [
+          "MagicSetonas"
+        ],
+        "extensions": [
+          ".se"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "python",
+        "scopeName": "source.python",
+        "path": "./grammars/MagicSetonas.tmLanguage"
+      }
+    ]
+  }
+}
